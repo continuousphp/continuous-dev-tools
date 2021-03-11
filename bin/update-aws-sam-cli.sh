@@ -7,7 +7,7 @@ else
   sudo rm -f `which sam`
 fi
 
-pip3 install --user  aws-sam-cli==0.47.0 && \
+pip3 install --user  aws-sam-cli==1.20.0 && \
 
 if ! [ -x "$(command -v sam)" ]; then
   echo 'Error: aws-sam-cli did not update.' >&2
